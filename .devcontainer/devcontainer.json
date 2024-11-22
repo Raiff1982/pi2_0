@@ -10,7 +10,8 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"dongli.python-preview"
+				"dongli.python-preview",
+				"eg2.vscode-npm-script"
 			]
 		}
 	}

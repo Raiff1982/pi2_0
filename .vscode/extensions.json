@@ -2,7 +2,6 @@
 	"recommendations": [
 		"ms-azuretools.vscode-azurestorage",
 		"fabioz.vscode-pydev-python-debugger",
-		"dongli.python-preview",
 		"fabioz.vscode-pydev"
 	]
 }
