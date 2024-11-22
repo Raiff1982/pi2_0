@@ -9,5 +9,6 @@
 		"plaintext",
 		"python"
 	],
-	"editor.quickSuggestions": false
+	"editor.quickSuggestions": false,
+	"azureResourceGroups.showHiddenTypes": true
 }
