@@ -1,0 +1,13 @@
+{
+	"vue.server.hybridMode": true,
+	"spellright.language": [
+		"en"
+	],
+	"spellright.documentTypes": [
+		"markdown",
+		"latex",
+		"plaintext",
+		"python"
+	],
+	"editor.quickSuggestions": false
+}
