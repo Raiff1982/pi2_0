@@ -1,86 +1,86 @@
 {
-  "chat_history": [
-    {
-      "inputs": {
-        "question": "What is the weather like in Boston?"
-      },
-      "outputs": {
-        "answer": "{\"forecast\":[\"sunny\",\"windy\"],\"location\":\"Boston\",\"temperature\":\"72\",\"unit\":\"fahrenheit\"}",
-        "llm_output": {
-          "content": null,
-          "function_call": {
-            "arguments": "{\n  \"location\": \"Boston\"\n}",
-            "name": "get_current_weather"
-          },
-          "role": "assistant"
-        }
-      }
-    }
-  ],
-  "question": "What is the meaning of life?",
-  "functions": [
-    {
-      "name": "newton_thoughts",
-      "description": "Apply Newton's laws to the given question.",
-      "parameters": {
-        "question": "What is the meaning of life?"
-      },
-      "relevant_data": "Isaac Newton was a key figure in the scientific revolution, best known for his laws of motion and universal gravitation. His work laid the foundation for classical mechanics."
-    },
-    {
-      "name": "davinci_insights",
-      "description": "Generate insights like Da Vinci for the given question.",
-      "parameters": {
-        "question": "What is the meaning of life?"
-      },
-      "relevant_data": "Leonardo da Vinci was a polymath whose areas of interest included invention, painting, sculpting, architecture, science, music, mathematics, engineering, literature, anatomy, geology, astronomy, botany, writing, history, and cartography."
-    },
-    {
-      "name": "einstein_insights",
-      "description": "Provide insights inspired by Einstein's theories.",
-      "parameters": {
-        "question": "What is the meaning of life?"
-      },
-      "relevant_data": "Albert Einstein developed the theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics). His work is also known for its influence on the philosophy of science."
-    },
-    {
-      "name": "suntzu_insights",
-      "description": "Apply Sun Tzu's strategic thinking to the given question.",
-      "parameters": {
-        "question": "What is the meaning of life?"
-      },
-      "relevant_data": "Sun Tzu was an ancient Chinese military strategist, philosopher, and author of 'The Art of War,' a treatise on military strategy and tactics."
-    },
-    {
-      "name": "gandhi_insights",
-      "description": "Provide insights based on Gandhi's principles.",
-      "parameters": {
-        "question": "What is the meaning of life?"
-      },
-      "relevant_data": "Mahatma Gandhi was an Indian lawyer, anti-colonial nationalist, and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule."
-    },
-    {
-      "name": "adalovelace_insights",
-      "description": "Generate insights inspired by Ada Lovelace.",
-      "parameters": {
-        "question": "What is the meaning of life?"
-      },
-      "relevant_data": "Ada Lovelace was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She is often considered the first computer programmer."
-    },
-    {
-      "name": "universal_reasoning",
-      "description": "Generate a comprehensive response using various reasoning methods.",
-      "parameters": {
-        "question": "What is the meaning of life?"
-      },
-      "calls": [
-        "newton_thoughts",
-        "davinci_insights",
-        "einstein_insights",
-        "suntzu_insights",
-        "gandhi_insights",
-        "adalovelace_insights"
-      ]
-    }
-  ]
+	"chat_history": [
+		{
+			"inputs": {
+				"question": "What is the weather like in Boston?"
+			},
+			"outputs": {
+				"answer": "{\"forecast\":[\"sunny\",\"windy\"],\"location\":\"Boston\",\"temperature\":\"72\",\"unit\":\"fahrenheit\"}",
+				"llm_output": {
+					"content": null,
+					"function_call": {
+						"arguments": "{\n  \"location\": \"Boston\"\n}",
+						"name": "get_current_weather"
+					},
+					"role": "assistant"
+				}
+			}
+		}
+	],
+	"question": "What is the meaning of life?",
+	"functions": [
+		{
+			"name": "newton_thoughts",
+			"description": "Apply Newton's laws to the given question.",
+			"parameters": {
+				"question": "What is the meaning of life?"
+			},
+			"relevant_data": "Isaac Newton was a key figure in the scientific revolution, best known for his laws of motion and universal gravitation. His work laid the foundation for classical mechanics."
+		},
+		{
+			"name": "davinci_insights",
+			"description": "Generate insights like Da Vinci for the given question.",
+			"parameters": {
+				"question": "What is the meaning of life?"
+			},
+			"relevant_data": "Leonardo da Vinci was a polymath whose areas of interest included invention, painting, sculpting, architecture, science, music, mathematics, engineering, literature, anatomy, geology, astronomy, botany, writing, history, and cartography."
+		},
+		{
+			"name": "einstein_insights",
+			"description": "Provide insights inspired by Einstein's theories.",
+			"parameters": {
+				"question": "What is the meaning of life?"
+			},
+			"relevant_data": "Albert Einstein developed the theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics). His work is also known for its influence on the philosophy of science."
+		},
+		{
+			"name": "suntzu_insights",
+			"description": "Apply Sun Tzu's strategic thinking to the given question.",
+			"parameters": {
+				"question": "What is the meaning of life?"
+			},
+			"relevant_data": "Sun Tzu was an ancient Chinese military strategist, philosopher, and author of 'The Art of War,' a treatise on military strategy and tactics."
+		},
+		{
+			"name": "gandhi_insights",
+			"description": "Provide insights based on Gandhi's principles.",
+			"parameters": {
+				"question": "What is the meaning of life?"
+			},
+			"relevant_data": "Mahatma Gandhi was an Indian lawyer, anti-colonial nationalist, and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule."
+		},
+		{
+			"name": "adalovelace_insights",
+			"description": "Generate insights inspired by Ada Lovelace.",
+			"parameters": {
+				"question": "What is the meaning of life?"
+			},
+			"relevant_data": "Ada Lovelace was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She is often considered the first computer programmer."
+		},
+		{
+			"name": "universal_reasoning",
+			"description": "Generate a comprehensive response using various reasoning methods.",
+			"parameters": {
+				"question": "What is the meaning of life?"
+			},
+			"calls": [
+				"newton_thoughts",
+				"davinci_insights",
+				"einstein_insights",
+				"suntzu_insights",
+				"gandhi_insights",
+				"adalovelace_insights"
+			]
+		}
+	]
 }

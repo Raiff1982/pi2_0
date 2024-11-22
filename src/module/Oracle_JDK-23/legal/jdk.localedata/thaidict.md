@@ -1,6 +1,7 @@
 ## Thai Dictionary
 
 ### Thai Dictionary License
+
 <pre>
 
 Copyright (C) 1982 The Royal Institute, Thai Royal Government.

@@ -1,6 +1,7 @@
 # Code Citations
 
 ## License: unknown
+
 https://github.com/RobinStGeorges/SocialPlanningWeb/tree/a82e4ba165c0a6ed2024d346dca24b0066448208/app.py
 
 ```
@@ -12,8 +13,8 @@ Z' indicates UTC time
     events = events_result.get('items', []
 ```
 
-
 ## License: Apache_2_0
+
 https://github.com/NishanthSingaraju/BioHack/tree/08772e88683b3a10d4af859af7e8e718f9f51ec0/backend/calendar_api.py
 
 ```

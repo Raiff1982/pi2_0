@@ -1,6 +1,7 @@
 ## jopt-simple v5.0.4
 
 ### MIT License
+
 <pre>
 
 Copyright (c) 2004-2015 Paul R. Holser, Jr.

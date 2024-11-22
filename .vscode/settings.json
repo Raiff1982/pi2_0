@@ -9,5 +9,13 @@
 		"plaintext",
 		"python"
 	],
-	"editor.quickSuggestions": false
+	"editor.quickSuggestions": false,
+	<<<<<<<
+	HEAD
+	"azureResourceGroups.showHiddenTypes": true,
+	"python.pythonPath": ".venv\\Scripts\\python.exe"
+	=======
+	"azureResourceGroups.showHiddenTypes": true
+	>>>>>>>
+	0d275cd621fe50537024b00fb2d0d02af68d5f6f
 }

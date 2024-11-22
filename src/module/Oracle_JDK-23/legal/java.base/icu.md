@@ -1,6 +1,7 @@
 ## International Components for Unicode (ICU4J) v74.1
 
 ### ICU4J License
+
 ```
 UNICODE LICENSE V3
 

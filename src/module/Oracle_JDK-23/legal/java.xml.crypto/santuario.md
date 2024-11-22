@@ -1,6 +1,7 @@
 ## Apache Santuario v3.0.3
 
 ### Apache 2.0 License
+
 ```
 
                               Apache License
@@ -208,6 +209,7 @@ limitations under the License.
 ```
 
 ### Apache Santuario Notice
+
 ```
 
 Apache Santuario - XML Security for Java

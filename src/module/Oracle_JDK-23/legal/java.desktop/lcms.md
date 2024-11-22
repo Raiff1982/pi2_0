@@ -1,6 +1,7 @@
 ## Little Color Management System (LCMS) v2.16
 
 ### LCMS License
+
 <pre>
 
 MIT License
@@ -40,6 +41,7 @@ Users of this code must verify correctness for their application.
 </pre>
 
 ### AUTHORS File Information
+
 ```
 
 Main Author

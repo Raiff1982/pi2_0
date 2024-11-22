@@ -1,6 +1,7 @@
 ## The Unicode Standard, Unicode Character Database, Version 15.1.0
 
 ### Unicode Character Database
+
 ```
 
 UNICODE LICENSE V3

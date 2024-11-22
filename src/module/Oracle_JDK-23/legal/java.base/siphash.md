@@ -1,6 +1,7 @@
 ## SipHash v1.0-68c8a7c
 
 ### Notice
+
 SipHash reference C implementation
 
 ```
@@ -17,9 +18,11 @@ SipHash reference C implementation
 ```
 
 ### Licenses
+
 The code is dual-licensed CCO and MIT
 
 #### MIT License
+
 ```
 Copyright 2012-2024 JP Aumasson
 
@@ -31,6 +34,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ```
 
 #### CC0 1.0 Universal
+
 ```
 Statement of Purpose
 
