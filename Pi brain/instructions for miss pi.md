@@ -1,27 +1,27 @@
 // Define URLs
 Set(
-urls,
-{
-docs: "https://api.example.com/docs?search=" & data,
-learn: "https://api.example.com/learn?topic=" & data,
-codeGen: {
-python: "def function_name(params):\n # code here",
-java: "public class ClassName {\n public void methodName() {\n // code here\n }\n}"
-},
-project: "https://api.example.com/projects",
-versionControl: "https://api.github.com/repos/" & data & "/commits",
-ci: "https://api.ci.example.com/pipelines",
-coverage: "https://api.coverage.example.com/repos/" & data & "/coverage",
-analysis: "https://api.sonar.example.com/analysis"
-}
+    urls,
+    {
+        docs: "https://api.example.com/docs?search=" & data,
+        learn: "https://api.example.com/learn?topic=" & data,
+        codeGen: {
+            python: "def function_name(params):\n    # code here",
+            java: "public class ClassName {\n    public void methodName() {\n        // code here\n    }\n}"
+        },
+        project: "https://api.example.com/projects",
+        versionControl: "https://api.github.com/repos/" & data & "/commits",
+        ci: "https://api.ci.example.com/pipelines",
+        coverage: "https://api.coverage.example.com/repos/" & data & "/coverage",
+        analysis: "https://api.sonar.example.com/analysis"
+    }
 );
 
 // Define tasks
 Switch(
-task,
-"codeAssist",
-// Code assistance logic (Power Fx doesn't support ESLint directly)
-Notify("Code assistance is not directly supported in Power Fx.", NotificationType.Error),
+    task,
+    "codeAssist",
+    // Code assistance logic (Power Fx doesn't support ESLint directly)
+    Notify("Code assistance is not directly supported in Power Fx.", NotificationType.Error),
 
     "fetchDocs",
     // Fetch documentation (use Power Automate for actual HTTP request)
@@ -65,5 +65,4 @@ Notify("Code assistance is not directly supported in Power Fx.", NotificationTyp
 
     // Default case
     Notify("Invalid Task", NotificationType.Error)
-
 )

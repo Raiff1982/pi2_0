@@ -10,7 +10,11 @@
 	],
 	"settings": {
 		"azureResourceGroups.showHiddenTypes": true,
-		"editor.quickSuggestions": false,
+		"editor.quickSuggestions": {
+			"comments": "off",
+			"strings": "off",
+			"other": "off"
+		},
 		"yaml.customTags": [
 			"!upload scalar",
 			"!remove scalar",
