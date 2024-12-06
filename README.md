@@ -1,8 +1,6 @@
 # P2_0
 
-P2_0 is an interactive Python bot that provides various perspectives and insights on a given question by simulating
-different ways of thinking. It combines responses inspired by Newton's laws, Leonardo da Vinci, human intuition, neural
-networks, quantum computing, and resilient kindness.
+P2_0 is an interactive Python bot that provides various perspectives and insights on a given question by simulating different ways of thinking. It combines responses inspired by Newton's laws, Leonardo da Vinci, human intuition, neural networks, quantum computing, and resilient kindness.
 
 ## Features
 
@@ -43,8 +41,7 @@ networks, quantum computing, and resilient kindness.
     ```
 
 5. **Create a [data.json](http://_vscodecontentref_/2) file**:
-   Create a file named [data.json](http://_vscodecontentref_/3) in the project directory and add the following JSON
-   data:
+    Create a file named [data.json](http://_vscodecontentref_/3) in the project directory and add the following JSON data:
 
     ```json
     {

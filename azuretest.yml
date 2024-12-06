@@ -4,5 +4,5 @@ location: <insert region here>
 display_name: john-workspace
 description: A workspace for testing enterprise readiness features
 tags:
-    purpose: testing
-    team: ws-management
+  purpose: testing
+  team: ws-management
